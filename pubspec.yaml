@@ -1,8 +1,8 @@
 name: stability_image_generation
 description: A Free Flutter Package for Image Generation using Stability API.
-homepage: https://github.com/KarlMathuthu/stability_image_generation
-repository: https://github.com/KarlMathuthu/stability_image_generation
-issue_tracker: https://github.com/KarlMathuthu/stability_image_generation/issues
+homepage: https://github.com/SceloCele/stability_image_generation
+repository: https://github.com/SceloCele/stability_image_generation
+issue_tracker: https://github.com/SceloCele/stability_image_generation/issues
 version: 0.0.4
 
 topics:
@@ -24,15 +24,14 @@ screenshots:
   - description: Example 05.
     path: screenshots/05.png
 
-
 environment:
-  sdk: '>=3.0.5 <4.0.0'
+  sdk: ">=3.0.5 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  http: ^1.1.0
+  http: ^1.5.0
 
 dev_dependencies:
   flutter_test:
@@ -40,5 +39,5 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
-  assets: 
-     - images/
+  assets:
+    - images/

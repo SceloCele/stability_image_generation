@@ -108,8 +108,6 @@ class StabilityAI {
         return ',{masterpiece}, CRISTMAS style';
       case ImageAIStyle.sovietCartoon:
         return ',{masterpiece}, SOVIETCARTOON style';
-      default:
-        return 'DEFAULT';
-    }
+      }
   }
 }
